@@ -1,0 +1,22 @@
+.order-item {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 18px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+    max-width: 500px;
+}
+
+.order-item-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-item-photo {
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,8 @@
+.search-input {
+    height: 40px;
+    margin: 10px;
+    width: 300px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+}
