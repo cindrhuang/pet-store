@@ -2,7 +2,8 @@ import {
     NavLink
 } from "react-router-dom";
 
-import { FaStore, FaShoppingCart} from 'react-icons/fa';
+import { FaStore, FaShoppingCart} from "react-icons/fa";
+import { Logout } from "../Logout";
 
 import "./styles.css"
 export const Navbar = () => {
@@ -14,6 +15,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                     <NavLink activeClassName="nav-selected" to="/cart"> My Cart</NavLink>
+                </li>
+                <li>
+                    <Logout/>
                 </li>
             </ul>
         </nav>
