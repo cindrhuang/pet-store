@@ -11,10 +11,13 @@ export const Navbar = () => {
         <nav className="navbar">
             <ul className="navbar-list">
                 <li>
-                    <NavLink exact={true} activeClassName="nav-selected" to="/">Pets</NavLink>
+                    <NavLink exact={true} activeClassName="nav-selected" to="/"> Pets </NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName="nav-selected" to="/cart"> My Cart</NavLink>
+                    <NavLink activeClassName="nav-selected" to="/cart"> My Cart </NavLink>
+                </li>
+                <li>
+                    <NavLink activeClassName="nav-selected" to="/new"> Add New Pet </NavLink>
                 </li>
                 <li>
                     <Logout/>
